@@ -1,6 +1,6 @@
 <?php
 /**
- * Storefront engine room
+ * Storefront engine room checking the new change ...
  *
  * @package storefront
  */
