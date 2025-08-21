@@ -1,0 +1,4 @@
+- My theme is AStra
+- My login details are
+- user: abc
+- pass: pasword
