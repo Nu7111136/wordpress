@@ -1,0 +1,62 @@
+# ==================================================
+# WordPress Git Ignore
+# ==================================================
+
+# OS generated files
+.vs/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# IDE / Editor files
+*.log
+*.sql
+*.sqlite
+*.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Composer / Node dependencies
+vendor/
+node_modules/
+
+# WordPress core (you usually install it fresh)
+wp-admin/
+wp-includes/
+
+# WordPress files to ignore
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Cache
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+
+# Uploads (optional: ignore if uploads are large; keep if you want media in repo)
+wp-content/uploads/
+
+# Backup files
+*.tar.gz
+*.zip
+*.gz
+*.rar
+*.7z
+
+# Env / config
+.env
+.env.*
+config.php
+wp-config.php
+
+# Logs
+*.log
+
+# ==================================================
+# End of File
+# ==================================================
